@@ -131,6 +131,10 @@ body {
   background: #2e2f42;
   text-align: center;
   padding: 188px 0;
+  background-image: url(./images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .section-studio-title {
   font-weight: 700;

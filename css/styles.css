@@ -132,8 +132,6 @@ body {
   text-align: center;
   padding: 188px 0;
 
-  /* background-image: url(../images/people-office.jpg); */
-
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -143,9 +141,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.studio-container {
+
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .section-studio-title {
@@ -362,4 +360,26 @@ body {
   width: 264px;
 }
 
+.footer-social {
+  display: flex;
+}
+
+.social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.social-list {
+  display: flex;
+  gap: 16px;
+}
+.social-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
 /* ======/page-footer==== */

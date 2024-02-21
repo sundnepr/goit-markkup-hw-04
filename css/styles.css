@@ -328,8 +328,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
 }
+
+.social-icon {
+  fill: #f4f4fd;
+}
+
 .social-net-link:hover,
 .social-net-link:focus {
   background-color: #404bbf;

@@ -328,9 +328,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 .social-net-link:hover,
-:focus {
+.social-net-link:focus {
   background-color: #404bbf;
 }
 

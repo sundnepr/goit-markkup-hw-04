@@ -375,6 +375,11 @@ body {
 .photo {
   position: relative;
   overflow: hidden;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.photo:hover {
+  transform: translateY(0%);
 }
 .photo-text {
   position: absolute;
@@ -443,6 +448,10 @@ body {
   color: #f4f4fd;
 }
 
+.logo-paragraf {
+  margin-right: 120px;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -454,7 +463,6 @@ body {
 .footer-social {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .social-text {

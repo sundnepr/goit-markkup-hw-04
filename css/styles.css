@@ -349,7 +349,6 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
   display: flex;
-  /* transition: box-shadow 10250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .section-portfolio-list {
@@ -357,7 +356,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  /* transition: box-shadow 10250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: box-shadow 10250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-portfolio-list .item {
@@ -373,7 +372,6 @@ body {
 
 .section-portfolio-list .item:hover .photo-text {
   transform: translateY(0%);
-  /* transition: box-shadow 10250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .name-app {
